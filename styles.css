@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1, h2 {
+  color: navy;
+}
+div, p, input, button {
+  margin: 10px 0;
+}
+#myDiv {
+  padding: 10px;
+  border: 1px solid black;
+}
+#myBox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 100px;
+}
+button {
+  padding: 5px 10px;
+}
+input {
+  padding: 5px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin: 5px 0;
+  padding: 5px;
+}
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.task-description {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-left: 20px;
+}
