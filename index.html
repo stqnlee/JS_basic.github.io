@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Basics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>AITU</h1>
+  <h2>How to Cheat</h2>
+  <p>To learn more about cheating on exams, click the button below</p>
+  <button onclick="showAlert()">CLICK it</button>
+
+  <h2>Operators</h2>
+  <p>Open youuur Console to see the operators.</p>
+
+  <h2>The Real meaning of:</h2>
+  <p id="myParagraph">Let's get together this weekend!</p>
+  <button onclick="changeText()">actually</button>
+
+  <h2>Tap & Change</h2>
+  <div id="myDiv">Just random wordsss.......</div>
+  <button onclick="changeBgColor()">Background Color</button>
+  <button onclick="changeFontSize()">Font Size</button>
+
+  <h2>Add & Remove </h2>
+  <button onclick="addItem()">Add</button>
+  <button onclick="removeItem()">Remove</button>
+  <ul id="myList"></ul>
+
+  <h2>Mouse Event</h2>
+  <div id="myBox">Hover over</div>
+
+  <h2>Task 6: Keyboard Events</h2>
+  <input id="myInput" type="text" placeholder="Type something">
+  <p id="output">Typed text: </p>
+
+  <h2>Task 7: Calculator</h2>
+  <input id="num1" type="number" placeholder="Number 1">
+  <input id="num2" type="number" placeholder="Number 2">
+  <div>
+    <button onclick="calculate('+')">+</button>
+    <button onclick="calculate('-')">-</button>
+    <button onclick="calculate('*')">×</button>
+    <button onclick="calculate('/')">÷</button>
+  </div>
+  <p id="result">Result: </p>
+
+  <h2>Task 8: To-Do List</h2>
+  <input id="taskInput" type="text" placeholder="Enter a task">
+  <input id="taskDescription" type="text" placeholder="Enter description">
+  <button onclick="addTask()">Add Task</button>
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
